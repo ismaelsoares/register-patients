@@ -1,0 +1,17 @@
+# @name GET
+GET http://127.0.0.1:9000/
+
+###
+
+# @name POST
+POST http://127.0.0.1:9000/pacientes
+Content-Type: application/json
+
+{
+    "name": "Ismael Soares Doria",
+    "dateBirth": "2024-07-23",
+    "genre": "male",
+    "cpf": "01122334455",
+    "cellphone": 11973732134,
+    "address": "Rua Carlos Leite dos Santos"
+}
