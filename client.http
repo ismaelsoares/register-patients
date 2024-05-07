@@ -8,10 +8,10 @@ POST http://127.0.0.1:9000/pacientes
 Content-Type: application/json
 
 {
-    "name": "Ismael Soares Doria",
-    "dateBirth": "2024-07-23",
-    "genre": "male",
-    "cpf": "01122334455",
-    "cellphone": 11973732134,
-    "address": "Rua Carlos Leite dos Santos"
+    "name": "Ana Paula da Silva",
+    "dateBirth": "1961-08-22",
+    "genre": "female",
+    "cpf": "12345608890",
+    "cellphone": 1199287633,
+    "address": "Rua Ariston Leda"
 }

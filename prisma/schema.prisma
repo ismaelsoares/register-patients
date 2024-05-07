@@ -15,7 +15,7 @@ model Patient {
   name      String
   dateBirth DateTime @map("date_birth")
   genre     String
-  cpf       String
+  cpf       String   @unique
   cellphone BigInt
   address   String
 
